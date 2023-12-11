@@ -1,0 +1,26 @@
+{
+	"identifiers": [
+		"GMS-2014-26"
+	],
+	"identifier": "GMS-2014-26",
+	"package_slug": "npm/fancy-server",
+	"title": "Directory Traversal",
+	"description": "Versions less than of the static file server module fancy-server are vulnerable to directory traversal. An attacker can provide input such as `../` to read files outside of the served directory.",
+	"date": "2014-11-14",
+	"pubdate": "2014-11-14",
+	"affected_range": "<0.1.4",
+	"fixed_versions": [
+		"0.1.4"
+	],
+	"affected_versions": "All versions before 0.1.4",
+	"credit": "Adam Baldwin",
+	"solution": "Upgrade to version 0.1.4 or greater.",
+	"urls": [
+		"http://en.wikipedia.org/wiki/Directory_traversal_attack"
+	],
+	"cwe_ids": [
+		"CWE-1035",
+		"CWE-937"
+	],
+	"uuid": "313349b0-136c-4203-8a41-444bf3511c5f"
+}

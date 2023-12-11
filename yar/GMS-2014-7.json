@@ -1,0 +1,27 @@
+{
+	"identifiers": [
+		"GMS-2014-7"
+	],
+	"identifier": "GMS-2014-7",
+	"package_slug": "npm/yar",
+	"title": "Denial of Service",
+	"description": "Yar uses an encrypted cookie for session support which can crash the process if it contains an invalid value.",
+	"date": "2014-06-16",
+	"pubdate": "2014-06-16",
+	"affected_range": "<2.2.0",
+	"fixed_versions": [
+		"2.2.0"
+	],
+	"affected_versions": "All versions before 2.2.0",
+	"not_impacted": "All versions starting from 2.2.0",
+	"credit": "Reid Burke",
+	"solution": "Upgrade to version 2.2.0 or above.",
+	"urls": [
+		"https://github.com/hapijs/yar/issues/34"
+	],
+	"cwe_ids": [
+		"CWE-1035",
+		"CWE-937"
+	],
+	"uuid": "3c47db82-bc4c-4d3a-8f6a-4a240c8a77d7"
+}

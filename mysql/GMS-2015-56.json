@@ -1,0 +1,27 @@
+{
+	"identifiers": [
+		"GMS-2015-56"
+	],
+	"identifier": "GMS-2015-56",
+	"package_slug": "npm/mysql",
+	"title": "SQL Injection due to unescaped object keys",
+	"description": "Keys of objects are not escaped with `mysql.escape()` which could lead to SQL Injection.",
+	"date": "2015-12-28",
+	"pubdate": "2015-12-28",
+	"affected_range": "<=2.0.0-alpha7",
+	"fixed_versions": [
+		"2.0.0-alpha8"
+	],
+	"affected_versions": "All versions up to 2.0.0-alpha7",
+	"not_impacted": "All versions after 2.0.0-alpha7",
+	"credit": "Sébastian Dejonghe",
+	"solution": "Upgrade to version 2.0.0-alpha8 or above.",
+	"urls": [
+		"https://github.com/felixge/node-mysql/issues/342"
+	],
+	"cwe_ids": [
+		"CWE-1035",
+		"CWE-937"
+	],
+	"uuid": "4393be11-a9b5-4fd6-be3d-a286ff0c2c40"
+}

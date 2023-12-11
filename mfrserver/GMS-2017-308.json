@@ -1,0 +1,23 @@
+{
+	"identifiers": [
+		"GMS-2017-308"
+	],
+	"identifier": "GMS-2017-308",
+	"package_slug": "npm/mfrserver",
+	"title": "Directory Traversal",
+	"description": "`mfrserver` is vulnerable to a directory traversal issue, giving an attacker access to the filesystem by placing \"../\" in the url./n",
+	"date": "2017-10-09",
+	"pubdate": "2017-10-09",
+	"affected_range": ">=0.0.0-alpha",
+	"affected_versions": "All versions",
+	"credit": "Liang Gong",
+	"solution": "There is no solution for this vulnerability at the moment.",
+	"urls": [
+		"https://github.com/JacksonGL/NPM-Vuln-PoC/blob/master/directory-traversal/mfrserver"
+	],
+	"cwe_ids": [
+		"CWE-1035",
+		"CWE-937"
+	],
+	"uuid": "0ec2a944-5504-4e4c-9ce1-2feaec01378a"
+}

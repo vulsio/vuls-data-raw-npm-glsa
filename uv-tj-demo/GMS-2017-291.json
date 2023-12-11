@@ -1,0 +1,23 @@
+{
+	"identifiers": [
+		"GMS-2017-291"
+	],
+	"identifier": "GMS-2017-291",
+	"package_slug": "npm/uv-tj-demo",
+	"title": "Directory Traversal",
+	"description": "`uv-tj-demo` is vulnerable to a directory traversal issue, giving an attacker access to the filesystem by placing \"../\" in the url./n",
+	"date": "2017-10-04",
+	"pubdate": "2017-10-04",
+	"affected_range": ">=0.0.0-alpha",
+	"affected_versions": "All versions",
+	"credit": "Liang Gong",
+	"solution": "There is no solution for this vulnerability at the moment.",
+	"urls": [
+		"https://github.com/JacksonGL/NPM-Vuln-PoC/blob/master/directory-traversal/uv-tj-demo"
+	],
+	"cwe_ids": [
+		"CWE-1035",
+		"CWE-937"
+	],
+	"uuid": "f85c2779-2224-4081-82af-5c7c11daf49e"
+}

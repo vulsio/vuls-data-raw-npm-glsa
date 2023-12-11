@@ -1,0 +1,20 @@
+{
+	"identifiers": [
+		"GMS-2017-26"
+	],
+	"identifier": "GMS-2017-26",
+	"package_slug": "npm/ipip-coffee",
+	"title": "Downloads Resources over HTTP",
+	"description": "/nipip-coffee downloads geolocation resources over HTTP, which leaves it vulnerable to MITM attacks. This could impact the integrity and availability of the data being used to make geolocation decisions by an application.",
+	"date": "2017-01-01",
+	"pubdate": "2017-01-01",
+	"affected_range": ">=0.0.0-alpha",
+	"affected_versions": "All versions",
+	"credit": "Adam Baldwin",
+	"solution": "There is no solution for this vulnerability at the moment.",
+	"cwe_ids": [
+		"CWE-1035",
+		"CWE-937"
+	],
+	"uuid": "c75a57eb-dd17-4833-ad2f-4b1c51a9c57f"
+}

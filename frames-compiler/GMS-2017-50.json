@@ -1,0 +1,20 @@
+{
+	"identifiers": [
+		"GMS-2017-50"
+	],
+	"identifier": "GMS-2017-50",
+	"package_slug": "npm/frames-compiler",
+	"title": "Downloads Resources over HTTP",
+	"description": "It may be possible to cause remote code execution (RCE) by swapping out the requested binary with an attacker controlled binary if the attacker is on the network or positioned in between the user and the remote server.",
+	"date": "2017-01-01",
+	"pubdate": "2017-01-01",
+	"affected_range": ">=0.0.0-alpha",
+	"affected_versions": "All versions",
+	"credit": "Adam Baldwin",
+	"solution": "There is no solution for this vulnerability at the moment.",
+	"cwe_ids": [
+		"CWE-1035",
+		"CWE-937"
+	],
+	"uuid": "c005af13-af9d-4901-a9d5-5750eb318972"
+}

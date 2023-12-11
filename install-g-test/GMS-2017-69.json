@@ -1,0 +1,20 @@
+{
+	"identifiers": [
+		"GMS-2017-69"
+	],
+	"identifier": "GMS-2017-69",
+	"package_slug": "npm/install-g-test",
+	"title": "Downloads Resources over HTTP",
+	"description": "install-g-test downloads resources over HTTP, which leaves it vulnerable to MITM attacks.",
+	"date": "2017-01-01",
+	"pubdate": "2017-01-01",
+	"affected_range": ">=0.0.0-alpha",
+	"affected_versions": "All versions",
+	"credit": "Adam Baldwin",
+	"solution": "There is no solution for this vulnerability at the moment.",
+	"cwe_ids": [
+		"CWE-1035",
+		"CWE-937"
+	],
+	"uuid": "340455c6-ce13-42b7-be69-3ba63edc7d1a"
+}

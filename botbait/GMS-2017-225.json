@@ -1,0 +1,20 @@
+{
+	"identifiers": [
+		"GMS-2017-225"
+	],
+	"identifier": "GMS-2017-225",
+	"package_slug": "npm/botbait",
+	"title": "Tracking Module",
+	"description": "`botbait` is known to record and track user information. The module tracks the following information: * Source IP * process.versions * process.platform * How the module was invoked (test, require, pre-install)",
+	"date": "2017-09-26",
+	"pubdate": "2017-09-26",
+	"affected_range": ">=0.0.0-alpha",
+	"affected_versions": "All versions",
+	"credit": "Adam Baldwin",
+	"solution": "There is no solution for this vulnerability at the moment.",
+	"cwe_ids": [
+		"CWE-1035",
+		"CWE-937"
+	],
+	"uuid": "8925b385-6223-4669-bd3e-bb880e777c06"
+}

@@ -1,0 +1,26 @@
+{
+	"identifiers": [
+		"GMS-2015-53"
+	],
+	"identifier": "GMS-2015-53",
+	"package_slug": "npm/decamelize",
+	"title": "Regular Expression Denial of Service",
+	"description": "Decamelize uses regular expressions to evaluate a string and takes unescaped separator values, which can be used to create a denial of service attack.",
+	"date": "2015-12-23",
+	"pubdate": "2015-12-23",
+	"affected_range": ">=1.1.0 <=1.1.1",
+	"fixed_versions": [
+		"1.1.2"
+	],
+	"affected_versions": "All versions starting from 1.1.0 up to 1.1.1",
+	"credit": "saurik",
+	"solution": "Upgrade to version 1.1.2 or later.",
+	"urls": [
+		"https://github.com/sindresorhus/decamelize/issues/5"
+	],
+	"cwe_ids": [
+		"CWE-1035",
+		"CWE-937"
+	],
+	"uuid": "980f208d-a755-46f3-8bac-4decf4c48f56"
+}

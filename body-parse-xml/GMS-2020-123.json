@@ -1,0 +1,24 @@
+{
+	"identifiers": [
+		"GHSA-jcmh-9fvm-j39w",
+		"GMS-2020-123"
+	],
+	"identifier": "GMS-2020-123",
+	"package_slug": "npm/body-parse-xml",
+	"title": "Malicious Package",
+	"description": "This package contained malicious code. The package uploaded system information such as OS and hostname to a remote server. Remove the package from your environment. There are no indications of further compromise.",
+	"date": "2021-09-30",
+	"pubdate": "2020-09-03",
+	"affected_range": ">=0",
+	"affected_versions": "All versions",
+	"solution": "Unfortunately, there is no solution available yet.",
+	"urls": [
+		"https://www.npmjs.com/advisories/1125",
+		"https://github.com/advisories/GHSA-jcmh-9fvm-j39w"
+	],
+	"cwe_ids": [
+		"CWE-1035",
+		"CWE-937"
+	],
+	"uuid": "f3229bbc-6210-4898-9253-e3ef55277a0f"
+}

@@ -1,0 +1,27 @@
+{
+	"identifiers": [
+		"GMS-2015-3"
+	],
+	"identifier": "GMS-2015-3",
+	"package_slug": "npm/serve-index",
+	"title": "XSS via file names",
+	"description": "File and directory names are not escaped in HTML output. If remote users can influence file or directory names, this can trigger a persistent XSS attack.",
+	"date": "2015-03-14",
+	"pubdate": "2015-03-14",
+	"affected_range": "<1.6.3",
+	"fixed_versions": [
+		"1.6.3"
+	],
+	"affected_versions": "All versions before 1.6.3",
+	"not_impacted": "All versions starting from 1.6.3",
+	"credit": "Ivan Kozik",
+	"solution": "Upgrade to version 1.6.3 or above.",
+	"urls": [
+		"https://github.com/expressjs/serve-index/issues/28"
+	],
+	"cwe_ids": [
+		"CWE-1035",
+		"CWE-937"
+	],
+	"uuid": "4e2c7a24-d017-4566-bf80-47a17099cf13"
+}

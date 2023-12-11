@@ -1,0 +1,24 @@
+{
+	"identifiers": [
+		"GHSA-m36m-x4c5-rjxj",
+		"GMS-2020-735"
+	],
+	"identifier": "GMS-2020-735",
+	"package_slug": "npm/hooka-tools",
+	"title": "Silently Runs Cryptocoin Miner in hooka-tools",
+	"description": "Affected versions of `hooka-tools` were compromised and modified to silently run a cryptocoin miner in the background.\n\nAll affected versions have been unpublished from the npm registry.\n\n\n## Recommendation\n\nWhile this module has been unpublished, some versions may exist in mirrors or caches. Do not install this module, and remove it if found.",
+	"date": "2020-09-01",
+	"pubdate": "2020-09-01",
+	"affected_range": ">=0",
+	"affected_versions": "All versions",
+	"solution": "Unfortunately, there is no solution available yet.",
+	"urls": [
+		"https://www.npmjs.com/advisories/549",
+		"https://github.com/advisories/GHSA-m36m-x4c5-rjxj"
+	],
+	"cwe_ids": [
+		"CWE-1035",
+		"CWE-937"
+	],
+	"uuid": "6ba3bdb4-75cb-44ab-97e7-ca69a181260a"
+}

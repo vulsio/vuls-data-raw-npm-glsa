@@ -1,0 +1,24 @@
+{
+	"identifiers": [
+		"GMS-2015-50"
+	],
+	"identifier": "GMS-2015-50",
+	"package_slug": "npm/keystone",
+	"title": "Authentication Weakness",
+	"description": "Due to a bug in the the default sign in functionality, incomplete email addresses could be matched. A correct password is still required to complete sign in.",
+	"date": "2015-12-04",
+	"pubdate": "2015-12-04",
+	"affected_range": "<0.3.16",
+	"fixed_versions": [
+		"0.3.16"
+	],
+	"affected_versions": "All versions before 0.3.16",
+	"not_impacted": "All versions starting from 0.3.16",
+	"credit": "Greg Meyer",
+	"solution": "Upgrade to version 0.3.16 or above.",
+	"cwe_ids": [
+		"CWE-1035",
+		"CWE-937"
+	],
+	"uuid": "f96dca21-b68a-4fa0-a690-6f409c4ef3d9"
+}

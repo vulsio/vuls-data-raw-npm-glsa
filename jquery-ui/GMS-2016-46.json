@@ -1,0 +1,27 @@
+{
+	"identifiers": [
+		"GMS-2016-46"
+	],
+	"identifier": "GMS-2016-46",
+	"package_slug": "npm/jquery-ui",
+	"title": "XSS in dialog closeText",
+	"description": "jQuery-UI has a cross site scripting (XSS) vulnerability in the `closeText` parameter of the `dialog` function. If your application passes user input to this parameter, it may be vulnerable to XSS via this attack vector.",
+	"date": "2016-07-21",
+	"pubdate": "2016-07-21",
+	"affected_range": "<=1.11.4",
+	"fixed_versions": [
+		"1.12.0"
+	],
+	"affected_versions": "All versions up to 1.11.4",
+	"not_impacted": "All versions after 1.11.4",
+	"credit": "Phat Ly",
+	"solution": "Upgrade to version 1.12.0 or above.",
+	"urls": [
+		"https://github.com/jquery/jquery-ui/pull/1622"
+	],
+	"cwe_ids": [
+		"CWE-1035",
+		"CWE-937"
+	],
+	"uuid": "d4780b28-9937-414d-bd04-73d7129d22d6"
+}

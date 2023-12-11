@@ -1,0 +1,23 @@
+{
+	"identifiers": [
+		"GMS-2017-290"
+	],
+	"identifier": "GMS-2017-290",
+	"package_slug": "npm/zjjserver",
+	"title": "Directory Traversal",
+	"description": "`zjjserver` is vulnerable to a directory traversal issue, giving an attacker access to the filesystem by placing \"../\" in the url./n",
+	"date": "2017-10-04",
+	"pubdate": "2017-10-04",
+	"affected_range": ">=0.0.0-alpha",
+	"affected_versions": "All versions",
+	"credit": "Liang Gong",
+	"solution": "There is no solution for this vulnerability at the moment.",
+	"urls": [
+		"https://github.com/JacksonGL/NPM-Vuln-PoC/blob/master/directory-traversal/zjjserver"
+	],
+	"cwe_ids": [
+		"CWE-1035",
+		"CWE-937"
+	],
+	"uuid": "ce3fa1b1-afff-4bcc-853b-16f09d0a0511"
+}

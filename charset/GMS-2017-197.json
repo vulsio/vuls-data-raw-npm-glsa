@@ -1,0 +1,26 @@
+{
+	"identifiers": [
+		"GMS-2017-197"
+	],
+	"identifier": "GMS-2017-197",
+	"package_slug": "npm/charset",
+	"title": "Regular Expression Denial of Service",
+	"description": "charset is vulnerable to regular expression denial of service. Input of around k characters is required for a slow down of around 2 seconds. Unless node was compiled using the `-DHTTP_MAX_HEADER_SIZE=` option the default header max length is kb so the impact of the ReDoS is relatively low.",
+	"date": "2017-09-08",
+	"pubdate": "2017-09-08",
+	"affected_range": "<1.0.1",
+	"fixed_versions": [
+		"1.0.1"
+	],
+	"affected_versions": "All versions before 1.0.1",
+	"credit": "Cristian-Alexandru Staicu",
+	"solution": "Upgrade to charset version 1.0.1 or greater",
+	"urls": [
+		"https://github.com/node-modules/charset/issues/10"
+	],
+	"cwe_ids": [
+		"CWE-1035",
+		"CWE-937"
+	],
+	"uuid": "bea04e91-66d1-4316-9a56-29775ba4c096"
+}

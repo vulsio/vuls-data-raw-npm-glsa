@@ -1,0 +1,23 @@
+{
+	"identifiers": [
+		"GMS-2017-116"
+	],
+	"identifier": "GMS-2017-116",
+	"package_slug": "npm/remarkable",
+	"title": "XSS in Data URI",
+	"description": "remarkable allows the use of `data:` URIs.",
+	"date": "2017-03-09",
+	"pubdate": "2017-03-09",
+	"affected_range": "<=1.6.2",
+	"fixed_versions": [
+		"1.7.0"
+	],
+	"affected_versions": "All versions up to 1.6.2",
+	"credit": "Ben Alpert",
+	"solution": "Upgrade to v1.7.0 or higher",
+	"cwe_ids": [
+		"CWE-1035",
+		"CWE-937"
+	],
+	"uuid": "e1817462-cddc-40fa-9d9d-76129b9a5b15"
+}

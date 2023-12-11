@@ -1,0 +1,24 @@
+{
+	"identifiers": [
+		"GHSA-5jgp-pg4f-q8vj",
+		"GMS-2020-404"
+	],
+	"identifier": "GMS-2020-404",
+	"package_slug": "npm/node-ftp",
+	"title": "Malicious Package",
+	"description": "This package contained malicious code. The package uploaded system information such as OS and hostname to a remote server. Remove the package from your environment. There are no indications of further compromise.",
+	"date": "2021-09-30",
+	"pubdate": "2020-09-03",
+	"affected_range": ">=0",
+	"affected_versions": "All versions",
+	"solution": "Unfortunately, there is no solution available yet.",
+	"urls": [
+		"https://www.npmjs.com/advisories/1137",
+		"https://github.com/advisories/GHSA-5jgp-pg4f-q8vj"
+	],
+	"cwe_ids": [
+		"CWE-1035",
+		"CWE-937"
+	],
+	"uuid": "ff45cd25-0df5-4e22-9ec9-91f536291eb5"
+}

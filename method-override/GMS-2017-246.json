@@ -1,0 +1,24 @@
+{
+	"identifiers": [
+		"GMS-2017-246"
+	],
+	"identifier": "GMS-2017-246",
+	"package_slug": "npm/method-override",
+	"title": "Regular Expression Denial of Service",
+	"description": "method-override is vulnerable to a regular expression denial of service vulnerability when specially crafted input is passed in to be parsed via the `X-HTTP-Method-Override` header.",
+	"date": "2017-09-27",
+	"pubdate": "2017-09-27",
+	"affected_range": "<=1.0.2||<2.3.10",
+	"fixed_versions": [
+		"2.3.10"
+	],
+	"affected_versions": "All versions up to 1.0.2, all versions before 2.3.10",
+	"not_impacted": "All versions after 1.0.2 before 2.3.10",
+	"credit": "Doug Wilson",
+	"solution": "Upgrade to version 2.3.10 or above.",
+	"cwe_ids": [
+		"CWE-1035",
+		"CWE-937"
+	],
+	"uuid": "582f5eef-c25c-4e5d-a37d-050329a36e54"
+}

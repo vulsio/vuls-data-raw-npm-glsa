@@ -1,0 +1,19 @@
+{
+	"identifiers": [
+		"GMS-2017-328"
+	],
+	"identifier": "GMS-2017-328",
+	"package_slug": "npm/hooka-tools",
+	"title": "Silently Runs Cryptocoin Miner",
+	"description": "The `hooka-tools` module was updated to silently run a cryptocoin miner in the background.",
+	"date": "2017-10-25",
+	"pubdate": "2017-10-25",
+	"affected_range": ">=0.0.0-alpha",
+	"affected_versions": "All versions",
+	"solution": "Do not install / use this module. It has been unpublished from the registry but may exist in some caches.",
+	"cwe_ids": [
+		"CWE-1035",
+		"CWE-937"
+	],
+	"uuid": "b4abfeaf-df82-44c6-b3ac-87dd158ef919"
+}

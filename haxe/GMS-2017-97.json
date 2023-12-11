@@ -1,0 +1,27 @@
+{
+	"identifiers": [
+		"GMS-2017-97"
+	],
+	"identifier": "GMS-2017-97",
+	"package_slug": "npm/haxe",
+	"title": "Downloads Resources over HTTP",
+	"description": "haxe downloads zipped resources over HTTP, which leaves it vulnerable to MITM attacks. It may be possible to cause remote code execution (RCE) by swapping out the requested zip file with an attacker controlled zip file if the attacker is on the network or positioned in between the user and the remote server.",
+	"date": "2017-01-01",
+	"pubdate": "2017-01-01",
+	"affected_range": "<5.0.2",
+	"fixed_versions": [
+		"5.0.2"
+	],
+	"affected_versions": "All versions before 5.0.2",
+	"not_impacted": "All versions starting from 5.0.2",
+	"credit": "Adam Baldwin",
+	"solution": "Upgrade to version 5.0.2 or above.",
+	"urls": [
+		"https://github.com/HaxeFoundation/npm-haxe/commit/a43b9c8d3e1532a40ad6064d1c723eda98e6df2e"
+	],
+	"cwe_ids": [
+		"CWE-1035",
+		"CWE-937"
+	],
+	"uuid": "223e7044-ecf3-41f1-88f2-caffb3b2ac29"
+}

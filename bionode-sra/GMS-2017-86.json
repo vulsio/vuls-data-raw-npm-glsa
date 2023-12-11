@@ -1,0 +1,20 @@
+{
+	"identifiers": [
+		"GMS-2017-86"
+	],
+	"identifier": "GMS-2017-86",
+	"package_slug": "npm/bionode-sra",
+	"title": "Downloads Resources over HTTP",
+	"description": "bionode-sra downloads data resources over HTTP, which leaves it vulnerable to MITM attacks.",
+	"date": "2017-01-01",
+	"pubdate": "2017-01-01",
+	"affected_range": ">=0.0.0-alpha",
+	"affected_versions": "All versions",
+	"credit": "Adam Baldwin",
+	"solution": "There is no solution for this vulnerability at the moment.",
+	"cwe_ids": [
+		"CWE-1035",
+		"CWE-937"
+	],
+	"uuid": "d49f1191-1787-463c-b9fb-cfe88e3df3fa"
+}

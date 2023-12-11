@@ -1,0 +1,28 @@
+{
+	"identifiers": [
+		"GMS-2016-71"
+	],
+	"identifier": "GMS-2016-71",
+	"package_slug": "npm/nunjucks",
+	"title": "XSS in autoescape mode",
+	"description": "Nunjucks has a cross site scripting (XSS) vulnerability in autoescape mode: all template vars should automatically be escaped. By using an array for the keys, it is possible to bypass autoescaping and inject content into the DOM.",
+	"date": "2016-10-17",
+	"pubdate": "2016-10-17",
+	"affected_range": "<=2.4.2",
+	"fixed_versions": [
+		"2.4.3"
+	],
+	"affected_versions": "All versions up to 2.4.2",
+	"credit": "Matt Austin",
+	"solution": "Upgrade to version 2.4.3 or later.",
+	"urls": [
+		"https://github.com/matt-/nunjucks_test",
+		"https://github.com/mozilla/nunjucks/commit/038ba1e29990ca0eeafcf77125f4d9f960723f60",
+		"https://github.com/mozilla/nunjucks/issues/835"
+	],
+	"cwe_ids": [
+		"CWE-1035",
+		"CWE-937"
+	],
+	"uuid": "d340cdfd-40a6-4e82-b52c-584e41aafed8"
+}

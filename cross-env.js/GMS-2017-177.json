@@ -1,0 +1,19 @@
+{
+	"identifiers": [
+		"GMS-2017-177"
+	],
+	"identifier": "GMS-2017-177",
+	"package_slug": "npm/cross-env.js",
+	"title": "Hijacked Environment Variables",
+	"description": "`cross-env.js` was a malicious module published with the intent to hijack environment variables. It has been unpublished by npm.",
+	"date": "2017-08-09",
+	"pubdate": "2017-08-09",
+	"affected_range": ">=0.0.0-alpha",
+	"affected_versions": "All versions",
+	"solution": "If you have found this installed in your environment you should invalidate and regenerate any authentication tokens found in your environment variables.",
+	"cwe_ids": [
+		"CWE-1035",
+		"CWE-937"
+	],
+	"uuid": "afb3eb39-1be8-4270-bff4-1843cff6490d"
+}

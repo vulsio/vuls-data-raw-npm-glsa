@@ -1,0 +1,27 @@
+{
+	"identifiers": [
+		"GMS-2016-57"
+	],
+	"identifier": "GMS-2016-57",
+	"package_slug": "npm/sanitize-html",
+	"title": "XSS - Sanitization not applied recursively",
+	"description": "Sanitization of HTML strings is not applied recursively to input, allowing an attacker to potentially inject script and other markup.",
+	"date": "2016-08-01",
+	"pubdate": "2016-08-01",
+	"affected_range": "<=1.4.2",
+	"fixed_versions": [
+		"1.4.3"
+	],
+	"affected_versions": "All versions up to 1.4.2",
+	"credit": "Björn Kimminich",
+	"solution": "Upgrade to 1.4.3 or later",
+	"urls": [
+		"https://github.com/punkave/sanitize-html/commit/762fbc7bba389f3f789cc291c1eb2b64f60f2caf",
+		"https://github.com/punkave/sanitize-html/issues/29"
+	],
+	"cwe_ids": [
+		"CWE-1035",
+		"CWE-937"
+	],
+	"uuid": "c9f9614f-b55e-44e7-96aa-2f2bf19a7430"
+}

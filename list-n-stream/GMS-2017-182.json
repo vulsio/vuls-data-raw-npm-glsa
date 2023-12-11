@@ -1,0 +1,26 @@
+{
+	"identifiers": [
+		"GMS-2017-182"
+	],
+	"identifier": "GMS-2017-182",
+	"package_slug": "npm/list-n-stream",
+	"title": "Directory Traversal",
+	"description": "list-n-stream is vulnerable to a directory traversal issue, giving an attacker access to the filesystem by placing \"../\" in the url.",
+	"date": "2017-08-29",
+	"pubdate": "2017-08-29",
+	"affected_range": "<=0.0.10",
+	"fixed_versions": [
+		"0.0.11"
+	],
+	"affected_versions": "All versions up to 0.0.10",
+	"credit": "Liang Gong",
+	"solution": "Upgrade to v0.0.11 or later.",
+	"urls": [
+		"https://github.com/JacksonGL/NPM-Vuln-PoC/tree/master/directory-traversal/list-n-stream"
+	],
+	"cwe_ids": [
+		"CWE-1035",
+		"CWE-937"
+	],
+	"uuid": "71dea110-f040-445a-bb2c-fdc7319f903b"
+}

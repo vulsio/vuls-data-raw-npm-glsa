@@ -1,0 +1,23 @@
+{
+	"identifiers": [
+		"GMS-2017-190"
+	],
+	"identifier": "GMS-2017-190",
+	"package_slug": "npm/fsk-server",
+	"title": "Directory Traversal",
+	"description": "`fsk-server` is vulnerable to a directory traversal issue, giving an attacker access to the filesystem by placing \"../\" in the url.",
+	"date": "2017-09-01",
+	"pubdate": "2017-09-01",
+	"affected_range": ">=0.0.0-alpha",
+	"affected_versions": "All versions",
+	"credit": "Liang Gong",
+	"solution": "Because there is no patched version for this module, we suggest using a different one.",
+	"urls": [
+		"https://github.com/JacksonGL/NPM-Vuln-PoC/tree/master/directory-traversal/fsk-server"
+	],
+	"cwe_ids": [
+		"CWE-1035",
+		"CWE-937"
+	],
+	"uuid": "390bad40-aea8-4e16-b61e-c9a002319d68"
+}

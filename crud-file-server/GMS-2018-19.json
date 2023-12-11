@@ -1,0 +1,28 @@
+{
+	"identifiers": [
+		"GMS-2018-19"
+	],
+	"identifier": "GMS-2018-19",
+	"package_slug": "npm/crud-file-server",
+	"title": "Stored XSS in filenames",
+	"description": "crud-file-server allows embeding HTML in file names, which in certain conditions might lead to malicious JavaScript execution.",
+	"date": "2018-02-17",
+	"pubdate": "2018-02-17",
+	"affected_range": "<0.8.0",
+	"fixed_versions": [
+		"0.8.0"
+	],
+	"affected_versions": "All versions before 0.8.0",
+	"not_impacted": "All versions starting from 0.8.0",
+	"credit": "bl4de",
+	"solution": "Upgrade to version 0.8.0 or above.",
+	"urls": [
+		"https://github.com/omphalos/crud-file-server/commit/4155bfe068bf211b49a0b3ffd06e78cbaf1b40fa",
+		"https://hackerone.com/reports/311101"
+	],
+	"cwe_ids": [
+		"CWE-1035",
+		"CWE-937"
+	],
+	"uuid": "54c67ce4-e6fe-4295-992b-426816b53f8f"
+}

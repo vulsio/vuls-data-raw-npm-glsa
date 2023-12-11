@@ -1,0 +1,27 @@
+{
+	"identifiers": [
+		"GMS-2018-22"
+	],
+	"identifier": "GMS-2018-22",
+	"package_slug": "npm/anywhere",
+	"title": "Cross Site Scripting",
+	"description": "anywhere allows embedding HTML in file names, which in certain conditions allows execution of malicious JavaScript.",
+	"date": "2018-02-26",
+	"pubdate": "2018-02-26",
+	"affected_range": "<1.5.0",
+	"fixed_versions": [
+		"1.5.0"
+	],
+	"affected_versions": "All versions before 1.5.0",
+	"not_impacted": "All versions starting from 1.5.0",
+	"credit": "bl4de",
+	"solution": "Upgrade to version 1.5.0 or above.",
+	"urls": [
+		"https://hackerone.com/reports/309394"
+	],
+	"cwe_ids": [
+		"CWE-1035",
+		"CWE-937"
+	],
+	"uuid": "be165ad3-7c4b-45fb-a8e1-9208e98a3520"
+}

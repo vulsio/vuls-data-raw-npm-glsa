@@ -1,0 +1,26 @@
+{
+	"identifiers": [
+		"GHSA-876r-hj45-fw7g",
+		"GMS-2020-768"
+	],
+	"identifier": "GMS-2020-768",
+	"package_slug": "npm/safer-eval",
+	"title": "Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection')",
+	"description": "Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection') in safer-eval.",
+	"date": "2020-09-03",
+	"pubdate": "2020-09-03",
+	"affected_range": ">=0",
+	"affected_versions": "All versions",
+	"solution": "Unfortunately, there is no solution available yet.",
+	"urls": [
+		"https://gist.github.com/JLLeitschuh/609bb2efaff22ed84fe182cf574c023a",
+		"https://www.npmjs.com/advisories/1221",
+		"https://github.com/advisories/GHSA-876r-hj45-fw7g"
+	],
+	"cwe_ids": [
+		"CWE-1035",
+		"CWE-78",
+		"CWE-937"
+	],
+	"uuid": "9c57890d-d9d0-4ead-ac42-be42bcdec203"
+}

@@ -1,0 +1,23 @@
+{
+	"identifiers": [
+		"GMS-2017-127"
+	],
+	"identifier": "GMS-2017-127",
+	"package_slug": "npm/badjs-sourcemap-server",
+	"title": "Directory Traversal",
+	"description": "badjs-sourcemap-server is vulnerable to a directory traversal issue, giving an attacker access to the filesystem by placing \"../\" in the URL.",
+	"date": "2017-04-18",
+	"pubdate": "2017-04-18",
+	"affected_range": ">=0.0.0-alpha",
+	"affected_versions": "All versions",
+	"credit": "Liang Gong",
+	"solution": "There is no solution for this vulnerability at the moment, so it's recommended to use a different module.",
+	"urls": [
+		"https://github.com/JacksonGL/NPM-Vuln-PoC/tree/master/directory-traversal/badjs-sourcemap-server"
+	],
+	"cwe_ids": [
+		"CWE-1035",
+		"CWE-937"
+	],
+	"uuid": "e1787585-578c-4d07-ba63-e268253a568c"
+}

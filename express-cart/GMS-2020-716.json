@@ -1,0 +1,26 @@
+{
+	"identifiers": [
+		"GHSA-9pr3-7449-977r",
+		"GMS-2020-716"
+	],
+	"identifier": "GMS-2020-716",
+	"package_slug": "npm/express-cart",
+	"title": "Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection')",
+	"description": "Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection') in express-cart.",
+	"date": "2021-09-27",
+	"pubdate": "2020-09-02",
+	"affected_range": ">=0",
+	"affected_versions": "All versions",
+	"solution": "Unfortunately, there is no solution available yet.",
+	"urls": [
+		"https://hackerone.com/reports/395944",
+		"https://www.npmjs.com/advisories/808",
+		"https://github.com/advisories/GHSA-9pr3-7449-977r"
+	],
+	"cwe_ids": [
+		"CWE-1035",
+		"CWE-78",
+		"CWE-937"
+	],
+	"uuid": "026758f5-a6d7-41e4-b6fe-02ccfd28778b"
+}

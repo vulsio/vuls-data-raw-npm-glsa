@@ -1,0 +1,28 @@
+{
+	"identifiers": [
+		"GHSA-q3w9-g74q-vp5f",
+		"GMS-2020-718"
+	],
+	"identifier": "GMS-2020-718",
+	"package_slug": "npm/express-fileupload",
+	"title": "Denial of Service in express-fileupload",
+	"description": "Versions of `express-fileupload` prior to 1.1.6-alpha.6 is vulnerable to Denial of Service. The package causes server responses to be delayed (up to 30s in internal testing) if the request contains a large filename of `.` characters.",
+	"date": "2023-01-10",
+	"pubdate": "2020-09-03",
+	"affected_range": "<1.1.6",
+	"fixed_versions": [
+		"1.1.6"
+	],
+	"affected_versions": "All versions before 1.1.6",
+	"not_impacted": "All versions starting from 1.1.6",
+	"solution": "Upgrade to version 1.1.6 or above.",
+	"urls": [
+		"https://www.npmjs.com/advisories/1216",
+		"https://github.com/advisories/GHSA-q3w9-g74q-vp5f"
+	],
+	"cwe_ids": [
+		"CWE-1035",
+		"CWE-937"
+	],
+	"uuid": "9ccbfa76-0112-4df8-87c6-a9c3073a40e7"
+}

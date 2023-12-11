@@ -1,0 +1,23 @@
+{
+	"identifiers": [
+		"GMS-2017-240"
+	],
+	"identifier": "GMS-2017-240",
+	"package_slug": "npm/myserver.alexcthomas18",
+	"title": "Directory Traversal",
+	"description": "`myserver.alexcthomas18` is vulnerable to a directory traversal issue, giving an attacker access to the filesystem by placing \"../\" in the url./n",
+	"date": "2017-09-27",
+	"pubdate": "2017-09-27",
+	"affected_range": ">=0.0.0-alpha",
+	"affected_versions": "All versions",
+	"credit": "Liang Gong",
+	"solution": "There is no solution for this vulnerability at the moment.",
+	"urls": [
+		"https://github.com/JacksonGL/NPM-Vuln-PoC/blob/master/directory-traversal/myserver.alexcthomas18"
+	],
+	"cwe_ids": [
+		"CWE-1035",
+		"CWE-937"
+	],
+	"uuid": "7cb70dee-de30-4e55-8160-6c3aa33f69cf"
+}

@@ -1,0 +1,25 @@
+{
+	"identifiers": [
+		"GHSA-j4ch-mw66-xmqv",
+		"GMS-2020-428"
+	],
+	"identifier": "GMS-2020-428",
+	"package_slug": "npm/pensi-scheduler",
+	"title": "Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection')",
+	"description": "Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection') in pensi-scheduler.",
+	"date": "2020-09-03",
+	"pubdate": "2020-09-03",
+	"affected_range": "=1.1.3",
+	"affected_versions": "Version 1.1.3",
+	"solution": "Unfortunately, there is no solution available yet.",
+	"urls": [
+		"https://www.npmjs.com/advisories/1107",
+		"https://github.com/advisories/GHSA-j4ch-mw66-xmqv"
+	],
+	"cwe_ids": [
+		"CWE-1035",
+		"CWE-78",
+		"CWE-937"
+	],
+	"uuid": "0a49e046-e570-411b-8d8d-606631e3eb13"
+}

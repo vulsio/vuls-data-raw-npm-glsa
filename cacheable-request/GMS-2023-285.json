@@ -1,0 +1,26 @@
+{
+	"identifiers": [
+		"GHSA-8x6c-cv3v-vp6g",
+		"GMS-2023-285"
+	],
+	"identifier": "GMS-2023-285",
+	"package_slug": "npm/cacheable-request",
+	"title": "False Positive",
+	"description": "This advisory has been marked as a False Positive.",
+	"date": "2023-06-23",
+	"pubdate": "2023-02-11",
+	"affected_range": "<0",
+	"affected_versions": "All versions before 0",
+	"solution": "Unfortunately, there is no solution available yet.",
+	"urls": [
+		"https://github.com/jaredwray/cacheable-request/security/advisories/GHSA-8x6c-cv3v-vp6g",
+		"https://github.com/jaredwray/cacheable-request/commit/8a47777e4eb61960469873cf4b3a2823742fc15e",
+		"https://github.com/advisories/GHSA-rc47-6667-2j5j",
+		"https://github.com/advisories/GHSA-8x6c-cv3v-vp6g"
+	],
+	"cwe_ids": [
+		"CWE-1035",
+		"CWE-937"
+	],
+	"uuid": "7f1452b6-110b-4545-a6b1-04c9e9c4d3aa"
+}
