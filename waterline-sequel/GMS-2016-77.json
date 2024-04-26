@@ -8,7 +8,7 @@
 	"description": "Any user input that goes into Waterline's `like`, `contains`, `startsWith`, or `endsWith` will end up in waterline-sequel with the potential for malicious code. A malicious user can input their own SQL statements that will get executed and have full access to the database.",
 	"date": "2016-10-31",
 	"pubdate": "2016-10-31",
-	"affected_range": "0.5.0",
+	"affected_range": "=0.5.0",
 	"fixed_versions": [
 		"0.5.1"
 	],
